@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agencia de Carros</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="" method="post">
+    <form>
         <table>
             <thead>
                 <tr>
@@ -19,18 +20,23 @@
                 <tr>
                     <td>
                         <img src="img/LogoAgenciaAutos.png" alt="" width="200px" height="200px">
-                        <span>Renta de Autos de Lujo</span>
+                        <br>
+                        <h2>Renta de Autos de Lujo</h2>
                     </td>
                     <td>
                         <h4>Marca de preferencia</h4>
                         <input type="radio" name="marca" id="marca" value="mercedes">
                         <label for="mercedes">Mercedes</label>
+                        <br>
                         <input type="radio" name="marca" id="marca" value="bmw">
                         <label for="bmw">BMW</label>
+                        <br>
                         <input type="radio" name="marca" id="marca" value="porsche">
                         <label for="porsche">Porsche</label>
+                        <br>
                         <input type="radio" name="marca" id="marca" value="audi">
                         <label for="audi">Audi</label>
+                        <br>
                         <input type="radio" name="marca" id="marca" value="infinity">
                         <label for="infinity">Infinity</label>
                     </td>
@@ -38,10 +44,13 @@
                         <h4>Modelo</h4>
                         <input type="radio" name="modelo" id="modelo" value="sedan">
                         <label for="sedan">Sedan</label>
+                        <br>
                         <input type="radio" name="modelo" id="modelo" value="deportivo">
                         <label for="deportivo">Deportivo</label>
+                        <br>
                         <input type="radio" name="modelo" id="modelo" value="suv">
                         <label for="suv">SUV</label>
+                        <br>
                         <input type="radio" name="modelo" id="modelo" value="familiar">
                         <label for="familiar">Familiar</label>
                     </td>
@@ -51,10 +60,13 @@
                         <h4>Datos del cliente</h4>
                         <label for="nombre">Nombre:</label>
                         <input type="text" name="nombre" id="nombre">
+                        <br>
                         <label for="direccion">Dirección:</label>
                         <input type="text" name="direccion" id="direccion">
+                        <br>
                         <label for="telefono">Telefono:</label>
                         <input type="text" name="telefono" id="telefono">
+                        <br>
                         <label for="correo">Correo:</label>
                         <input type="text" name="correo" id="correo">
                         <hr>
@@ -107,6 +119,7 @@
                             <option value="12">Dic</option>
                         </select>
                         <span>2026</span>
+                        <br>
                         <label for="dias">Numero de Dias</label>
                         <input type="number" name="dias" id="dias">
                     </td>
@@ -119,28 +132,45 @@
                     </td>
                     <td>
                         <span>La renta el auto puede ser acompañado de servicios extras.</span>
+                        <br>
                         <input type="checkbox" name="contrato" id="contrato">
                         <span>Contratacion de chofer all day</span>
+                        <br>
                         <input type="checkbox" name="traslado" id="traslado">
                         <span>Traslado Hotel/Aeropuerto</span>
+                        <br>
                         <input type="checkbox" name="kilometraje" id="kilometraje">
                         <span>Kilometraje Libre</span>
+                        <br>
                         <input type="checkbox" name="electrico" id="electrico">
                         <span>Auto Electrico</span>
+                        <br>
                         <input type="checkbox" name="esterilizacion" id="esterilizacion">
                         <span>Esterilizacion diaria nocturna</span>
+                        <br>
                         <input type="checkbox" name="wifi" id="wifi">
                         <span>Infiniti Wifi In Car</span>
-                        <br>
-                        <button type="submit">Hacer tu reservacion/button>
 
                     </td>
 
                 </tr>
             </tbody>
-            <tfoot></tfoot>
+            <tfoot>
+                <tr>
+                    <td colspan="3">
+                        <span>Página elaborada por: Ricardo Elizalde</span>
+                        <br>
+                        <a href="">Liga del dominio personal</a>
+                        <br>
+                        <span>Todos los derechos reservados</span>
+                    </td>
+                </tr>
+            </tfoot>
         </table>
 
+    <button type="submit">
+        Hacer tu reservacion
+    </button>
     </form>
 </body>
 </html>
