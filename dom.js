@@ -8,13 +8,39 @@ mensaje = function() {
     alert(nom);
     alert(nom.value);
 
-    var marca = document.querySelector('input[name="marca": checked)
+    var marca = document.querySelector('input[name="marca"]:checked');
     alert(marca);
+    alert(marca.value);
 
-    if (marca.checked)
-    
+    var dias = document.getElementById("dias");
+    alert(dias);
+    alert(dias.value);
 
-    alert();
+    var contrato = document.getElementById("contrato");
+    var traslado = document.getElementById("traslado");
+    var kilometraje = document.getElementById("kilometraje");
+    var electrico = document.getElementById("electrico");
+    var esterilizacion = document.getElementById("esterilizacion");
+    var wifi = document.getElementById("wifi");
+
+    alert(contrato);
+    alert(contrato.checked);
+    alert(traslado);
+    alert(traslado.checked);
+    alert(kilometraje);
+    alert(kilometraje.checked);
+    alert(electrico);
+    alert(electrico.checked);
+    alert(esterilizacion);
+    alert(esterilizacion.checked);
+    alert(wifi);
+    alert(wifi.checked);
+
+
+    // var marca = document.querySelector('input[name="marca": checked)
+    // alert(marca);
+
+    // if (marca.checked)
 
 }
 
